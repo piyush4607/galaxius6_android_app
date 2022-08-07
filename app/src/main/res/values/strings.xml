@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GALAXIUS6</string>
+    <string name="mnrega">MNREGA</string>
+    <string name="invalid_name">Please Enter Valid Name</string>
+    <string name="invalid_number">Please Enter Valid Employee Number</string>
+    <string name="invalid_ID">6 Digit Employee ID</string>
+    <string name="invalid_DOB">Please Enter Valid DOB</string>
+    <string name="invalid_Aadhar">Please Enter Valid Aadhar No.</string>
+</resources>

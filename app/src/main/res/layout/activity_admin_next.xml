@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminNext">
+
+    <View
+        android:id="@+id/ellipse_3"
+        android:layout_width="484dp"
+        android:layout_height="372dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-90dp"
+        android:background="@drawable/ellipsebg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/regnewemp"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/adminnextbtn"
+        android:text="REGISTER NEW\nEMPLOYEE"
+        app:layout_constraintBottom_toTopOf="@+id/viewallatt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/genatt"
+        app:layout_constraintTop_toBottomOf="@+id/ellipse_3"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/genatt"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="44dp"
+        android:background="@drawable/adminnextbtn"
+        android:text="GENERATe\nATTENDENCE"
+        app:layout_constraintBottom_toTopOf="@+id/urempatt"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ellipse_3"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/urempatt"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="160dp"
+        android:background="@drawable/adminnextbtn"
+        android:text="YOUR EMPLOYEE\nATTENDENCE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/viewallatt"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="160dp"
+        android:background="@drawable/adminnextbtn"
+        android:text="VIEW ALL\nATTENDENCE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/urempatt" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
